@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ocean Composition Webquest</title>
+    <style>
+      :root {
+        --primary: #1a5276;
+        --secondary: #2e86c1;
+        --accent: #f39c12;
+        --light: #ecf0f1;
+        --dark: #2c3e50;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background-color: #f5f7fa;
+        color: var(--dark);
+        line-height: 1.6;
+      }
+
+      header {
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+        color: white;
+        padding: 2.5rem 0;
+        text-align: center;
+      }
+
+      nav {
+        background-color: var(--dark);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .nav-link {
+        color: white;
+        text-decoration: none;
+        padding: 1rem 1.5rem;
+        font-weight: 500;
+        transition: 0.3s;
+      }
+
+      .nav-link:hover {
+        background-color: var(--secondary);
+      }
+
+      main {
+        max-width: 1100px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+
+      .section {
+        background: white;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        margin-bottom: 3rem;
+        scroll-margin-top: 70px;
+      }
+
+      h2 {
+        color: var(--primary);
+        border-bottom: 3px solid var(--accent);
+        display: inline-block;
+        margin-bottom: 1.5rem;
+      }
+
+      .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+      }
+
+      .card {
+        background: var(--light);
+        padding: 1.5rem;
+        border-radius: 8px;
+        border-left: 5px solid var(--secondary);
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem;
+        background: var(--dark);
+        color: white;
+        margin-top: 4rem;
+      }
+
+      .source-link {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--secondary);
+        word-wrap: break-word;
+      }
+
+      @media (max-width: 600px) {
+        .nav-link { padding: 0.8rem; font-size: 0.9rem; }
+      }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <h1>Composition & Characteristics of Oceans</h1>
+      <p>By Colin, Charley, Reese, Hayden, and Brooklynn</p>
+    </header>
+
+    <nav>
+      <a href="#intro" class="nav-link">Home</a>
+      <a href="#oceans" class="nav-link">The Five Oceans</a>
+      <a href="#zones" class="nav-link">Ocean Zones</a>
+      <a href="#sources" class="nav-link">Sources</a>
+    </nav>
+
+    <main>
+      
+      <section id="intro" class="section">
+        <h2>Ocean Characteristics</h2>
+        <p>All oceans are sewawater. All seawater shares roughly the same salinity, which is a measure of solids dissolved in water. On average, every kilogram of seawater contains about 35 grams of salt. Oceans are split into three zones based off of temperature, salinity, and density.</p>
+      </section>
+
+      <section id="oceans" class="section">
+        <h2>The Five Oceans</h2>
+        <div class="content-grid">
+          <div class="card">
+            <h3>Pacific Ocean</h3>
+            <p>The largest and deepest ocean, covering about 60 million square miles—larger than all land masses put together. It is home to the Mariana Trench and the Ring of Fire , known for its many underwater volcanoes and large hurricanes.</p>
+          </div>
+          
+          <div class="card">
+            <h3>Atlantic Ocean</h3>
+            <p>The second largest ocean, covering around 20% of Earth's surface and spanning more than 41 million square miles. It separates the Americas from Africa, Asia, and Europe.</p>
+          </div>
+
+          <div class="card">
+            <h3>Indian Ocean</h3>
+            <p>The third largest and warmest ocean in the world. Located between India, Africa, and the Indonesian Islands, it is nearly six times the size of the United States.</p>
+          </div>
+
+          <div class="card:">
+            <h3>Southern Ocean</h3>
+            <p>Surrounds Antarctica and is known for intense storms and very cold temperatures. It is mostly covered in ice for the majority of the year.</p>
+          </div>
+
+          <div class="card">
+            <h3>Arctic Ocean</h3>
+            <p>The world's smallest and shallowest ocean. Located near the North Pole, it is covered by ice for part of the year.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="zones" class="section">
+        <h2>Ocean Zones</h2>
+        
+        <div class="card" style="margin-bottom: 1.5rem;">
+          <h3>Zone Factors</h3>
+          <p>Oceans are separated into layers based on three key characteristics: <strong>Salinity, Temperature, and Density.</strong></p>
+          <ul>
+            <li><strong>Salinity:</strong> In warmer oceans, the top 500 meters are saltier because water evaporates faster, leaving salt behind.</li>
+            <li><strong>Temperature:</strong> Temperatures change from the surface down to 1000 meters, varies depending on the ocean.</li>
+            <li><strong>Density:</strong> Cold water is denser than warm water, and saltwater is denser than freshwater, causing the water to layer.</li>
+          </ul>
+        </div>
+
+        <div class="content-grid">
+          <div class="card">
+            <h3>Surface Zone</h3>
+            <p>Extends from the surface down to approximately 200 meters. This zone has plenty of sunlight and heat, making it the home for organisms that perform photosynthesis and animals like whales, sharks, and jellyfish.</p>
+          </div>
+
+          <div class="card">
+            <h3>Twilight Zone</h3>
+            <p>Extends from 200 meters to approximately 1000 meters, where sunlight can no longer reach. Creatures swim up to the surface zone to hunt and feed.</p>
+          </div>
+
+          <div class="card">
+            <h3>Deep Zone</h3>
+            <p>The largest ecosystem on Earth, existing in complete darkness from 1000 to 4000 meters. Organisms here produce their own light through a chemical process called bioluminescence.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="sources" class="section">
+        <h2>Sources</h2>
+        <a class="source-link" href="https://www.nationalgeographic.com/environment/article/arctic-ocean" target="_blank">nationalgeographic.com/environment/article/arctic-ocean</a>
+        <a class="source-link" href="https://www.nationalgeographic.com/environment/article/pacific-ocean" target="_blank">nationalgeographic.com/environment/article/pacific-ocean</a>
+        <a class="source-link" href="https://education.nationalgeographic.org/resource/indian-ocean-video/" target="_blank">education.nationalgeographic.org/resource/indian-ocean-video/</a>
+        <a class="source-link" href="https://www.nationalgeographic.com/science/article/guam-twilight-zone-coral-reefs-new-species" target="_blank">nationalgeographic.com/science/article/guam-twilight-zone-coral-reefs-new-species</a>
+        <a class="source-link" href="https://en.wikipedia.org/wiki/Southern_Ocean" target="_blank">en.wikipedia.org/wiki/Southern_Ocean</a>
+        <a class="source-link" href="https://en.wikipedia.org/wiki/Atlantic_Ocean" target="_blank">en.wikipedia.org/wiki/Atlantic_Ocean</a>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>Science Presentation: Composition & Characteristics of Oceans</p>
+    </footer>
+
+    <script>
+      document.querySelectorAll('.nav-link').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    </script>
+
+  </body>
+</html>
